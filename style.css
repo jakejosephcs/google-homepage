@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBarItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexRight{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  text-align: center;
+  min-height: 100%;
+}
+
